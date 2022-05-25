@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header .right button{
+    background-color: #0d6efd;
+    padding: 15px 20px;
+    color: #fff;
+    border: 1px solid #0d6efd;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+#header .right{
+    float: right;
+}
+
+#header .left{
+    float: left;
+}
+
+#header .left a{
+    color: #212832;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#header{
+    padding: 025px 4rem;
+    overflow: auto;
+}
+
+#First{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-color: rgb(242, 246, 252);
+    background-size: cover;
+    padding: 12rem 0;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#First h1{
+    font-size: 40px;
+    color: #fff;
+}
+
+#First input {
+    width: 80%;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px 0 15px 15px;
+    border: none;
+}
+
+#First form{
+    width: 35%;
+    margin: 40px auto 0;
+}
+
+#First button{
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    margin-left: 10px;
+    padding: 15px 0;
+    width: 15%;
+}
+
+#icons{
+    background-color: #f8f9fa;
+}
+
+#icons .icon{
+    padding: 7rem 3rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#icons .icon .box{
+    width: 30%;
+    
+    text-align: center;
+}
+
+#icons i{
+    color: #6168FF;
+    font-size:  60px;
+    transition: .5s;
+    margin-bottom: 20px;
+}
+
+#icons h3{
+    margin: 10px 0;
+    color: #1f1f25;
+    font-size: 24px;
+    transition: .5s;
+}
+
+#icons p{
+    color: #757575;
+    font-size: 20px;
+    transition: .5s;
+    margin-top: 20px 0;
+    border: 1px solid #fff;
+}
+
+
+.Grup .box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Grup .box{
+    width: 50%;
+}
+.Grup  .img{
+   width: 40%; 
+}
